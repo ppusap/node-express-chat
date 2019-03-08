@@ -46,7 +46,7 @@ function submitfunction() {
   // set the value to an empty string and
   // focus on the message box again
   $('#m').val('').focus()
-  return false; // don't refresh
+e.preventDefault();
 }
 
 // emit a new notifyUser event from the client.........
